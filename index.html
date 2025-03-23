@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Hero Section -->
+    <header class="hero">
+        <h1>Hello, I'm <span>Yusuf</span></h1>
+        <p>Front-End Developer</p>
+        <a href="restuarant" class="btn">View My Work</a>
+    </header>
+
+    <!-- About Me -->
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <img src="images/IMG.jpg" alt="Your Photo" height="150">
+            <p>I am a passionate front-end developer specializing in HTML, CSS, JavaScript, and modern frameworks.</p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-container">
+            <div class="project">
+                <img src="images/1.png" alt="Project 1" width="300">
+                <h3>Personal Blog Landing Page</h3>
+                <p>A modern and responsive blog landing page designed using HTML and CSS. It features a stylish hero section, blog post previews, and hover animations for an engaging user experience. The layout is clean, minimalistic, and fully responsive, making it suitable for bloggers and content creators.</p>
+            </div>
+            <div class="project">
+                <img  src="images/2.png" alt="Project 2" width="300">
+                <h3>Restaurant Website</h3>
+                <p>A professional restaurant homepage built with HTML and CSS. It includes a navigation bar, an eye-catching hero section, and a menu section showcasing food items. With a modern design and hover effects, this project is perfect for restaurants, cafés, and food businesses.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">React</div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form  action="https://formspree.io/f/xdkegklv"
+         method="POST">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+</body>
+</html>
